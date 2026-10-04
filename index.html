@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anwar Febrian | Front-End Web Developer & UI/UX</title>
+    
+    <!-- Meta tags for SEO & HRD search -->
+    <meta name="description" content="Portfolio Anwar Febrian, Fresh Graduate Teknik Informatika. Berfokus pada Front-End Development dan UI/UX Design.">
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/icons/logo.png" type="image/png">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+            <div class="container">
+               <!-- Logo/Brand Navbar -->
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#hero" aria-label="Home - Anwar Febrian">
+                    <img src="assets/icons/AF3.png" alt="Logo" class="navbar-logo">
+                    <span class="brand-text fw-bold text-white">Anwar Febrian</span>
+                </a>
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero" class="d-flex align-items-center min-vh-100 hero-section">
+            <div class="container">
+                <div class="row align-items-center flex-column-reverse flex-lg-row">
+                    <!-- Text Content -->
+                    <div class="col-lg-7 mt-5 mt-lg-0" data-aos="fade-up" data-aos-duration="800">
+                        <span class="hero-eyebrow d-block mb-2 text-primary fw-semibold tracking-wide">
+                            HELLO, I'M ANWAR FEBRIAN
+                        </span>
+                        <h1 class="hero-title fw-bold text-white mb-4">
+                            Front-End Developer <br> & UI/UX Designer
+                        </h1>
+                        <p class="hero-description text-muted mb-5 pe-lg-5">
+                            Fresh Graduate Teknik Informatika yang berfokus pada perancangan antarmuka intuitif dan pengembangan website responsif. Memiliki minat mendalam pada analisis data dan menciptakan pengalaman digital yang *seamless*.
+                        </p>
+                        <div class="hero-cta d-flex gap-3">
+                            <a href="#projects" class="btn btn-primary-custom px-4 py-2 fw-medium">View My Projects</a>
+                            <a href="#contact" class="btn btn-outline-custom px-4 py-2 fw-medium">Contact Me</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Visual/Image Content -->
+                    <div class="col-lg-5 text-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="hero-image-wrapper position-relative d-inline-block">
+                            <!-- Background Glow Effect -->
+                            <div class="hero-glow position-absolute top-50 start-50 translate-middle"></div>
+                            <!-- Image Placeholder -->
+                            <img src="assets/img/profile/placeholder.png" alt="Anwar Febrian" class="img-fluid rounded-4 position-relative" style="max-width: 320px; object-fit: cover; z-index: 2; border: 1px solid var(--color-border); background-color: var(--color-surface);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="py-6 section-about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Text Content -->
+                    <div class="col-lg-7 mb-5 mb-lg-0" data-aos="fade-right" data-aos-duration="800">
+                        <h2 class="section-title fw-bold text-white mb-4">About <span class="text-primary">Me.</span></h2>
+                        <p class="text-muted mb-3 fs-5">
+                            Sebagai lulusan Teknik Informatika, saya memiliki ketertarikan besar dalam menjembatani logika sistem yang kompleks dengan antarmuka pengguna yang intuitif.
+                        </p>
+                        <p class="text-muted mb-0">
+                            Fokus utama saya terletak pada Front-End Web Development dan UI/UX Design. Saya menikmati proses merancang struktur data hingga membangun antarmuka website yang responsif dan mudah digunakan. Selain sisi visual, latar belakang akademik saya juga membekali saya dengan kemampuan analisis data, seperti pengolahan sentimen menggunakan machine learning.
+                        </p>
+                    </div>
+                    
+                    <!-- Education Card -->
+                    <div class="col-lg-4 offset-lg-1" data-aos="fade-left" data-aos-duration="800" data-aos-delay="150">
+                        <div class="education-card p-4 rounded-4">
+                            <h3 class="h5 fw-bold text-white mb-4 d-flex align-items-center gap-2">
+                                <i class="bi bi-mortarboard-fill text-primary"></i> Pendidikan
+                            </h3>
+                            <div class="education-item border-start border-primary border-3 ps-3">
+                                <h4 class="h6 text-white mb-1">Universitas Indraprasta PGRI</h4>
+                                <p class="text-primary mb-1 small fw-semibold">S1 Teknik Informatika</p>
+                                <p class="text-muted mb-0 small">IPK: 3.61 / 4.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="py-6 section-skills">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="800">
+                    <h2 class="section-title fw-bold text-white mb-2">My <span class="text-primary">Skills.</span></h2>
+                    <p class="text-muted">Teknologi dan perangkat yang saya gunakan.</p>
+                </div>
+                
+                <!-- Skills Grid -->
+                <div class="row g-4 justify-content-center">
+                    
+                    <!-- Skill Card 1: UI/UX -->
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                        <div class="skill-card h-100 p-4 rounded-4">
+                            <div class="skill-icon-wrapper mb-4">
+                                <i class="bi bi-vector-pen text-primary fs-4"></i>
+                            </div>
+                            <h3 class="h5 text-white fw-bold mb-4">UI/UX Design</h3>
+                            <ul class="list-unstyled skill-list mb-0">
+                                <li><i class="bi bi-check2 text-primary me-2"></i>Figma</li>
+                                <li><i class="bi bi-check2 text-primary me-2"></i>Wireframing & Prototyping</li>
+                                <li><i class="bi bi-check2 text-primary me-2"></i>Responsive Web Design</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 2: Front-End -->
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                        <div class="skill-card h-100 p-4 rounded-4">
+                            <div class="skill-icon-wrapper mb-4">
+                                <i class="bi bi-code-slash text-primary fs-4"></i>
+                            </div>
+                            <h3 class="h5 text-white fw-bold mb-4">Front-End Dev</h3>
+                            <ul class="list-unstyled skill-list mb-0">
+                                <li><i class="bi bi-check2 text-primary me-2"></i>HTML5 & CSS3</li>
+                                <li><i class="bi bi-check2 text-primary me-2"></i>JavaScript</li>
+                                <li><i class="bi bi-check2 text-primary me-2"></i>Bootstrap 5</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 3: Data & Backend Basics -->
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                        <div class="skill-card h-100 p-4 rounded-4">
+                            <div class="skill-icon-wrapper mb-4">
+                                <i class="bi bi-database-gear text-primary fs-4"></i>
+                            </div>
+                            <h3 class="h5 text-white fw-bold mb-4">Programming & Data</h3>
+                            <ul class="list-unstyled skill-list mb-0">
+                                <li><i class="bi bi-check2 text-primary me-2"></i>Python (Data Analysis / SVM)</li>
+                                <li><i class="bi bi-check2 text-primary me-2"></i>PHP (Dasar)</li>
+                                <li><i class="bi bi-check2 text-primary me-2"></i>MySQL (Dasar)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+       <!-- PROJECTS SECTION -->
+        <section id="projects" class="py-6 section-projects">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="800">
+                    <h2 class="section-title fw-bold text-white mb-2">Featured <span class="text-primary">Projects.</span></h2>
+                    <p class="text-muted">Implementasi langsung dari keahlian teknis dan desain saya.</p>
+                </div>
+                
+                <!-- FEATURED PROJECT: SVM Sentiment Analysis -->
+                <div class="project-featured-card mb-5" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <div class="row g-0 align-items-center">
+                        <!-- Featured Image (Left on Desktop, Top on Mobile) -->
+                        <div class="col-lg-6 project-featured-image-wrapper">
+                            <!-- Ganti src dengan gambar asli Anda nanti -->
+                            <img src="assets/img/thumbnail-svm.webp" alt="Analisis Sentimen Aplikasi Chess" class="project-img w-100 h-100 object-fit-cover" loading="lazy">
+                        </div>
+                        
+                        <!-- Featured Content (Right on Desktop, Bottom on Mobile) -->
+                        <div class="col-lg-6">
+                            <div class="project-content p-4 p-lg-5 d-flex flex-column h-100 justify-content-center">
+                                <span class="project-category mb-2 fw-semibold">Web Dev & Machine Learning</span>
+                                <h3 class="h3 text-white fw-bold mb-3">Analisis Sentimen Ulasan Aplikasi Chess</h3>
+                                <p class="text-muted mb-4">
+                                    Website klasifikasi sentimen ulasan Google Play Store. Dibangun dengan memadukan algoritma Support Vector Machine (SVM), ekstraksi fitur TF-IDF, dan pemrosesan teks berbasis web.
+                                </p>
+                                
+                                <!-- Technology Tags -->
+                                <div class="project-tags d-flex flex-wrap gap-2 mb-4">
+                                    <span class="badge project-badge">Python</span>
+                                    <span class="badge project-badge">PHP</span>
+                                    <span class="badge project-badge">MySQL</span>
+                                    <span class="badge project-badge">SVM</span>
+                                    <span class="badge project-badge">TF-IDF</span>
+                                    <span class="badge project-badge">HTML/CSS/JS</span>
+                                </div>
+                                
+                                <!-- CTA Links -->
+                                <div class="project-links d-flex flex-wrap gap-3 mt-auto">
+                                    <!-- Ganti dengan URL website SVM -->
+                                    <a href="https://anwarfebrian1208.github.io/skripsi-chess/" class="btn btn-primary-custom px-4 py-2 fw-medium btn-sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                    <!-- Ganti dengan URL GitHub -->
+                                    <a href="https://github.com/AnwarFebrian1208/skripsi-chess" class="btn btn-outline-custom px-4 py-2 fw-medium btn-sm" target="_blank" rel="noopener noreferrer"><i class="bi bi-github me-1"></i> GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SUPPORTING PROJECTS: Figma UI/UX -->
+                <div class="row g-4 projects-grid">
+                    
+                    <!-- FIGMA PROJECT 1 -->
+                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                        <div class="project-card d-flex flex-column h-100">
+                            <div class="project-image-wrapper">
+                                <!-- Ganti src dengan gambar asli Anda nanti -->
+                                <img src="assets/img/thumbnail-fatah.webp" alt="UI/UX Design Project 1" class="project-img" loading="lazy">
+                            </div>
+                            
+                            <div class="project-content d-flex flex-column flex-grow-1 p-4">
+                                <span class="project-category mb-2 fw-semibold">UI/UX Design</span>
+                                <h3 class="h4 text-white fw-bold mb-3">UI/UX Design Project Fatah</h3>
+                                <p class="text-muted mb-4 flex-grow-1">
+                                    Perancangan konsep antarmuka aplikasi e-commerce fashion untuk memudahkan pengguna menjelajahi dan membeli berbagai produk seperti pakaian, tas, sepatu, dan kebutuhan fashion lainnya dengan alur belanja yang intuitif.
+                                </p>
+                                
+                                <!-- My Role Box -->
+                                <div class="project-role p-3 mb-4 rounded-3">
+                                    <span class="d-block text-white fw-bold mb-1" style="font-size: 0.85rem;">My Role:</span>
+                                    <span class="text-muted" style="font-size: 0.85rem;">UI/UX Design Contributor</span>
+                                </div>
+                                
+                                <div class="project-tags d-flex flex-wrap gap-2 mb-4">
+                                    <span class="badge project-badge">Figma</span>
+                                </div>
+                                
+                                <div class="project-links mt-auto">
+                                    <!-- Ganti dengan URL prototype Figma -->
+                                    <a href="https://www.figma.com/proto/NqkuyhWrQYxytGhYF7ZjXy/Untitled?node-id=11-3&p=f&t=JRkNPOxsHHnssURV-0&scaling=scale-down&content-scaling=responsive&page-id=0%3A1&starting-point-node-id=11%3A3&hide-ui=1" class="btn btn-outline-custom px-4 py-2 fw-medium btn-sm w-100 text-center" target="_blank" rel="noopener noreferrer">View Prototype</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FIGMA PROJECT 2 -->
+                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                        <div class="project-card d-flex flex-column h-100">
+                            <div class="project-image-wrapper">
+                                <!-- Ganti src dengan gambar asli Anda nanti -->
+                                <img src="assets/img/thumbnail-duolingo.webp" alt="UI/UX Design Project 2" class="project-img" loading="lazy">
+                            </div>
+                            
+                            <div class="project-content d-flex flex-column flex-grow-1 p-4">
+                                <span class="project-category mb-2 fw-semibold">UI/UX Design</span>
+                                <h3 class="h4 text-white fw-bold mb-3">UI/UX Design Project Duolingo Feature</h3>
+                                <p class="text-muted mb-4 flex-grow-1">
+                                   Pengembangan konsep fitur gamifikasi pada aplikasi pembelajaran bahasa melalui sistem peringkat (leaderboard) dan mode PvP untuk menciptakan pengalaman belajar yang lebih interaktif dan kompetitif.
+                                </p>
+                                
+                                <!-- My Role Box -->
+                                <div class="project-role p-3 mb-4 rounded-3">
+                                    <span class="d-block text-white fw-bold mb-1" style="font-size: 0.85rem;">My Role:</span>
+                                    <span class="text-muted" style="font-size: 0.85rem;">UI/UX Design Contributor</span>
+                                </div>
+                                
+                                <div class="project-tags d-flex flex-wrap gap-2 mb-4">
+                                    <span class="badge project-badge">Figma</span>
+                                </div>
+                                
+                                <div class="project-links mt-auto">
+                                    <!-- Ganti dengan URL prototype Figma -->
+                                    <a href="https://www.figma.com/proto/LGttdNgqUZSiKU8tnnRYxv/Untitled?node-id=18-2859&p=f&t=0xJJW7iaLM9vEa3P-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=18%3A2859" class="btn btn-outline-custom px-4 py-2 fw-medium btn-sm w-100 text-center" target="_blank" rel="noopener noreferrer">View Prototype</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="py-6 section-contact">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8" data-aos="fade-up" data-aos-duration="800">
+                        <!-- Section Header -->
+                        <h2 class="section-title fw-bold text-white mb-3">Get In <span class="text-primary">Touch.</span></h2>
+                        <p class="text-muted mb-5 fs-5">
+                            Saat ini saya terbuka untuk peluang karir, kolaborasi, maupun diskusi seputar Front-End Development dan UI/UX Design. Jangan ragu untuk menyapa!
+                        </p>
+
+                        <!-- Contact Links / Social -->
+                        <div class="d-flex flex-wrap justify-content-center gap-4 mb-5">
+                            <!-- Email -->
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=anwarfebrian1208@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-link d-flex align-items-center gap-2 text-decoration-none">
+                                <div class="contact-icon-wrapper">
+                                    <i class="bi bi-envelope-fill"></i>
+                                </div>
+                                <span class="fw-medium">Email Me</span>
+                            </a>
+                            
+                            <!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/in/anwar-febrian" target="_blank" rel="noopener noreferrer" class="contact-link d-flex align-items-center gap-2 text-decoration-none">
+                                <div class="contact-icon-wrapper">
+                                    <i class="bi bi-linkedin"></i>
+                                </div>
+                                <span class="fw-medium">LinkedIn</span>
+                            </a>
+
+                            <!-- GitHub -->
+                            <a href="https://github.com/AnwarFebrian1208" target="_blank" rel="noopener noreferrer" class="contact-link d-flex align-items-center gap-2 text-decoration-none">
+                                <div class="contact-icon-wrapper">
+                                    <i class="bi bi-github"></i>
+                                </div>
+                                <span class="fw-medium">GitHub</span>
+                            </a>
+                        </div>
+
+                        <!-- Main CTA -->
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=anwarfebrian1208@gmail.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary-custom px-5 py-3 fw-bold fs-6 shadow-sm" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                            Say Hello
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer py-4 text-center">
+        <div class="container">
+            <p class="text-muted mb-0 small">
+                &copy; 2026 Anwar Febrian. All rights reserved. <br>
+                <span class="opacity-50">Built with HTML, CSS, and Bootstrap 5.</span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle (with Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
